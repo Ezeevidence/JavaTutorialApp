@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="integer">
+        Integer types can hold whole numbers such as 123 and −96. The size of the values that can be stored depends on the integer type that we choose.
+
+        The range of values is calculated as −(2n−1) to (2n−1)−1; where n is the number of bits required.
+    </string>
+    <string name="integ">
+        For example, the byte data type requires 1 byte = 8 bits. Therefore, the range of values that can be stored in the byte data type is −(28−1) to (28−1)−1
+= −27 to (27) -1
+= −128 to 127
+    </string>
+    <string name="floatingpoint">
+        Floating point data types are used to represent numbers with a fractional part.
+        Single precision floating point numbers occupy 4 bytes and Double precision floating point numbers occupy 8 bytes.
+        There are two subtypes:
+    </string>
+    <string name="character">
+        It stores character constants in the memory.
+        It assumes a size of 2 bytes, but basically it can hold only a single character because char stores unicode character sets.
+        It has a minimum value of ‘u0000’ (or 0) and a maximum value of ‘uffff’ (or 65,535, inclusive).
+    </string>
+    <string name="booleans">
+        Boolean data types are used to store values with two states: true or false.
+    </string>
+    <string name="strings">
+        Strings are basically a collection of characters, they cannot change once they create.
+    </string>
+    <string name="arraysandobjects">
+        An array is a group of variables that are similar in nature,they dynamically allocate and can contain both primitive or objects depending on the definition.
+        Their size has to specify in the only int, and their length can be found out by member length.
+        Their indexing always starts with zero, and they have methods, which a primitive data type cannot have.
+    </string>
+    <string name="variables">
+        A variable is the name given to a memory location. It is the basic unit of storage in a program.
+
+    The value stored in a variable can be changed during program execution.
+    A variable is only a name given to a memory location, all the operations done on the variable effects that memory location.
+    In Java, all the variables must be declared before use.
+
+    </string>
+
+    <string name="identifiers">
+        Identifiers are names provided by you.
+        These can be assigned to variables, methods, functions, classes etc. to uniquely identify them to the compiler.
+        They must be composed of only letters, numbers, the underscore, and the dollar sign ($).
+        They cannot contain white spaces. Identifiers may only begin with a letter, the underscore, or the dollar sign.
+        A variable cannot begin with a number. All variable names are case sensitive.
+    </string>
+    <string name="keywords">
+        Keywords are reserved words that have a specific meaning for the compiler. They cannot be used as identifiers. Java has a rich set of keywords.
+        Some examples are: boolean, char, if, protected, new, this, try, catch, null, threadsafe etc.
+    </string>
+    <string name="operators">
+        An operator is a symbol that operates on one or more operands to produce a result.
+    </string>
+    <string name="seperatorsa">
+        Separators are symbols that indicate the division and arrangement of groups of code.
+        The structure and function of code is generally defined by the separators.
+        The separators used in Java are as follows:
+    </string>
+    <string name="seperatorsb">
+        parentheses ( ) :
+    Used to define precedence in expressions, to enclose parameters in method definitions, and enclosing cast types.
+    </string>
+    <string name="seperartorsc">
+        braces { } :
+    Used to define a block of code and to hold the values of arrays.
+    </string>
+    <string name="seperatorsd">
+        brackets [ ] :
+    Used to declare array types.
+    </string>
+    <string name="seperatorse">
+        semicolon ; :
+    Used to separate statements.
+    </string>
+    <string name="seperatorsf">
+        comma , :
+    Used to separate identifiers in a variable declaration and in the for statement.
+    </string>
+    <string name="seperatorsg">
+        period . :
+    Used to separate package names from classes and subclasses and to separate a variable or a method from a reference variable.
+    </string>
+    <string name="literalsa">
+        Literals are variables whose values remain constant throughout the program.
+        They are also called Constants. Literals can be of four types. They are
+    </string>
+    <string name="literalsb">
+        a. String Literals:
+String Literals are always enclosed in double quotes and are implemented using the java.lang.String class.
+        Enclosing a character string within double quotes will automatically create a new String object.
+        For example, String s = "this is a string";.
+        String objects are immutable, which means that once created, their values cannot be changed.
+    </string>
+    <string name="literalsc">
+        b. Character Literals:
+These are enclosed in single quotes and contain only one character.
+    </string>
+    <string name="literalsd">
+      c. Boolean Literals:
+They can only have the values true or false. These values do not correspond to 1 or 0 as in C or C++.
+    </string>
+    <string name="literalse">
+      d. Numeric Literals:
+Numeric Literals can contain integer or floating point values.
+    </string>
+    <string name="loops">
+        Looping in programming languages is a feature which facilitates the execution of a set of
+        instructions/functions repeatedl while some condition evaluates to true.
+Java provides three ways for executing the loops.
+        While all the ways provide similar basic functionality, they differ in their syntax and condition checking time.
+    </string>
+    <string name="conditionallsalstatements">
+        A conditional statement is a statement that computer programming language used
+        to decide which code has to be run when the true condition is met or which code has
+        not to be run when the true condition is not met.
+    </string>
+
+</resources>

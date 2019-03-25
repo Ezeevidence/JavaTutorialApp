@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="methods">
+        A method is a collection of statements that perform some specific task and return result to the caller.
+        A method can perform some specific task without returning anything.
+        Methods allow us to reuse the code without retyping the code.
+        In Java, every method must be part of some class which is different from languages like C, C++ and Python.
+Methods are time savers and help us to reuse the code without retyping the code.
+    </string>
+
+    <string name="methoddeclarartiona">
+        Method declaration has six components:
+    </string>
+    <string name="modifiersa">
+        Modifier-: Defines access type of the method i.e. from where it can be accessed in your application.
+        In Java, there 4 type of the access specifiers.
+    </string>
+    <string name="modifiersb">
+        public: accessible in all class in your application.
+    </string>
+    <string name="modifiersc">
+        protected: accessible within the class in which it is defined and in its subclass(es)
+    </string>
+    <string name="modifiersd">
+        private: accessible only within the class in which it is defined.
+    </string>
+    <string name="modifierse">
+        default (declared/defined without using any modifier) :
+        accessible within same class and package within which its class is defined.
+    </string>
+
+    <string name="returntype">
+        The return type : The data type of the value returned by the the method or void if does not return a value.
+    </string>
+    <string name="methodname">
+        Method Name : the rules for field names apply to method names as well, but the convention is a little different
+    </string>
+    <string name="parameterlist">
+        Parameter list : Comma separated list of the input parameters are defined,
+        preceded with their data type, within the enclosed parenthesis.
+        If there are no parameters, you must use empty parentheses ().
+    </string>
+    <string name="exceptionlist">
+        Exception list : The exceptions you expect by the method can throw, you can specify these exception(s).
+    </string>
+    <string name="methodbody">
+        Method body : it is enclosed between braces. The code you need to be executed to perform your intended operations.
+    </string>
+    <string name="methodsignature">
+        Method signature: It consists of method name and parameter list (number of parameters,
+        type of the parameters and order of the parameters).
+        Return type and exceptions are not considered as part of it.
+    </string>
+    <string name="namingmethods">
+         A method name is typically a single word that should be a verb in lowercase or multi-word,
+        that begins with a verb in lowercase followed by adjective, noun…..
+        After the first word, first letter of each word should be capitalized. For example, findSum,
+computeMax, setX and getX
+
+Generally, A method has a unique name within the class in whichit is defined but sometime
+        a method might have same name as other method name within the same class as method overloading is allowed in Java.
+    </string>
+    <string name="classes">
+        A class is a user defined blueprint or prototype from which objects are created.
+        It represents the set of properties or methods that are common to all objects of one type.
+        In general, class declarations can include these components, in order:
+    </string>
+</resources>

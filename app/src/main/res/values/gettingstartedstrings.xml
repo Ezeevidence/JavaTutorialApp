@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="what_is_java">What Is Java</string>
+    <string name="applications_of_java">Applications Of Java</string>
+    <string name="oop">O.O.P</string>
+    <string name="requirements">Requirements</string>
+    <string name="oop1">
+        Object-oriented programming is the successor of procedural (structural) programming. Procedural programming describes programs as groups of reusable code units (procedures) which define input and output parameters. Procedural programs consist of procedures, which invoke each other.
+
+The problem with procedural programming is that code reusability is hard and limited – only procedures can be reused and it is hard to make them generic and flexible. There is no easy way to work with abstract data structures with different implementations.
+
+The object-oriented approach relies on the paradigm that each and every program works with data that describes entities (objects or events) from real life. For example: accounting software systems work with invoices, items, warehouses, availabilities, sale orders, etc.
+
+This is how objects came to be. They describe characteristics (properties) and behavior (methods) of such real life entities.
+
+The main advantages and goals of OOP are to make complex software faster to develop and easier to maintain. OOP enables the easy reuse of code by applying simple and widely accepted rules (principles).
+</string>
+    <string name="desktopguiapplications">
+        Java provides GUI development through various means like Abstract Windowing Toolkit (AWT), Swing and JavaFX. While AWT contains a number of pre-constructed components such as menu, button, list, and numerous third-party components, Swing, a GUI widget toolkit, additionally provides certain advanced components like trees, tables, scroll panes, tabbed panel and lists. JavaFX, a set of graphics and media packages, provides Swing interoperability, 3D graphic features and self-contained deployment model which facilitates quick scripting of Java applets and applications.
+    </string>
+    <string name="mobileapplications">
+        Java Platform, Micro Edition (Java ME or J2ME) is a cross-platform framework to build applications that run across all Java supported devices, including feature phones and smart phones. Further, applications for Android, one of the most popular mobile operating systems, are usually scripted in Java using the Android Software Development Kit (SDK) or other environments.
+        
+    </string>
+    <string name="embeddedsystem">
+        Embedded systems, ranging from tiny chips to specialized computers, are components of larger electromechanical systems performing dedicated tasks. Several devices, such as SIM cards, blue-ray disk players, utility meters and televisions, use embedded Java technologies. According to Oracle, 100% of Blu-ray Disc Players and 125 million TV devices employ Java.
+
+    </string>
+    <string name="webapplications">
+        Java provides support for web applications through Servlets, Struts or JSPs. The easy programming and higher security offered by the programming language has allowed a large number of government applications for health, social security, education and insurance to be based on Java. Java also finds application in development of eCommerce web applications using open-source eCommerce platforms, such as Broadleaf.
+
+    </string>
+    <string name="webservers">
+        The Java ecosystem today contains multiple Java web servers and application servers. While Apache Tomcat, Simple, Jo!, Rimfaxe Web Server (RWS) and Project Jigsaw dominate the web server space, WebLogic, WebSphere, and Jboss EAP dominate commercial application server space.
+    </string>
+    <string name="enterpriseapplications">
+        Java Enterprise Edition (Java EE) is a popular platform that provides API and runtime environment for scripting and running enterprise software, including network applications and web-services. Oracle claims Java is running in 97% of enterprise computers. The higher performance guarantee and faster computing in Java has resulted in high frequency trading systems like Murex to be scripted in the language. It is also the backbone for a variety of banking applications which have Java running from front user end to back server end.
+
+    </string>
+    <string name="systemrequirements">
+        The recommended system configuration is:
+
+    A system supporting Java SE 8 with at least 2GB of memory. Java 8 is supported on Linux®, Windows®, Solaris®, and Mac OS X.
+    At least 200MB of disk space to install the software components and examples.
+
+    </string>
+    <string name="scientificapplications">
+        Java is the choice of many software developers for writing applications involving scientific calculations and mathematical operations. These programs are generally considered to be fast and secure, have a higher degree of portability and low maintenance. Applications like MATLAB use Java both for interacting user interface and as part of the core system.
+
+    </string>
+    <string name="java1">
+        Java is a computer programming language. It enables programmers to write computer instructions using English-based commands instead of having to write in numeric codes. It’s known as a high-level language because it can be read and written easily by humans.
+    </string>
+    <string name="java2">
+        Like English, Java has a set of rules that determine how the instructions are written. These rules are known as its syntax. Once a program has been written, the high-level instructions are translated into numeric codes that computers can understand and execute.
+    </string>
+    <string name="java3">
+        Java was developed in the mid-1990s by James A. Gosling, a former computer scientist with Sun Microsystems. Java produces applets (browser-run programs), which facilitate graphical user interface (GUI) and object interaction by Internet users. Prior to Java applets, Web pages were typically static and non-interactive. Java applets have diminished in popularity with the release of competing products, such as Adobe Flash and Microsoft Silverlight.
+
+    </string>
+    <string name="java4">
+        Java applets run in a Web browser with Java Virtual Machine (JVM), which translates Java bytecode into native processor instructions and allows indirect OS or platform program execution.
+        JVM provides the majority of components needed to run bytecode, which is usually smaller than executable programs written through other programming languages. Bytecode cannot run if a system lacks required JVM.Java programs are found in desktops, servers, mobile devices, smart cards and Blu-ray Discs (BD).
+    </string>
+
+    <string name="encapsulation">
+        Encapsulation is the idea that the attributes of an entity are enclosed in that entity.
+        This gives context to attributes. This also allows the programmer to restrict access to those attributes so that those attributes are modified and/or used only in ways that the programmer intends to use them.
+    </string>
+
+    <string name="inheritance">
+        Inheritance is the idea that an entity can inherit attributes from another entity. It allows the programmer to create similar entities without needing to redefine similar attributes over and over.
+    </string>
+
+    <string name="abstraction">
+    Abstraction is the process of hiding all but the relevant information about a thing to make things less complex and more efficient for the user. For example, we don’t need to know how a clock works in order to use it to tell time. Abstraction lets you focus on what the thing does instead of how it does it.
+    </string>
+
+    <string name="polymorphism">
+        Polymorphism means “having many forms” which honestly doesn’t really help too much as a definition.  I like to call it a way to have the same method, only different. There are two ways to do this:
+    </string>
+
+    <string name="overloading">
+        Overloading: The method name stays the same, but the parameters, the return type and the number of parameters can all change.
+
+    </string>
+
+    <string name="overriding">
+        Overriding: This is when a subclass method has the same name, parameters and return type as a method in a superclass but has a different implementation.
+    </string>
+
+    <string name="datatypesa">
+        Data types specify the different sizes and values that can be stored in the variable. There are two types of data types in Java:
+    </string>
+    
+    <string name="primitivedatatypes">
+        1. Primitive data types: The primitive data types include boolean, char, byte, short, int, long, float and double.
+    </string>
+    
+    <string name="nonprimitive">
+        2. Non-primitive data types: The non-primitive data types include Classes, Interfaces, and Arrays.
+    </string>
+
+
+    </resources>
