@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="classa">
+        A class is a user defined blueprint or prototype from which objects are created.
+        It represents the set of properties or methods that are common to all objects of one type.
+        In general, class declarations can include these components, in order:
+    </string>
+    <string name="classb">
+        Modifiers : A class can be public or has default access (Refer this for details).
+    </string>
+    <string name="classc">
+        Class name: The name should begin with a initial letter (capitalized by convention).
+    </string>
+    <string name="classd">
+        Superclass(if any):
+        The name of the class’s parent (superclass), if any, preceded by the keyword extends.
+        A class can only extend (subclass) one parent.
+    </string>
+    <string name="classe">
+        Interfaces(if any):
+        A comma-separated list of interfaces implemented by the class, if any, preceded by the keyword implements.
+        A class can implement more than one interface.
+    </string>
+    <string name="classf">
+        Body: The class body surrounded by braces, { }.
+    </string>
+    <string name="constructor">
+        Every class has a constructor. If we do not explicitly write a constructor for a class,
+        the Java compiler builds a default constructor for that class.
+
+Each time a new object is created, at least one constructor will be invoked.
+        The main rule of constructors is that they should have the same name as the class.
+        A class can have more than one constructor.
+    </string>
+    <string name="objectsa">
+        It is a basic unit of Object Oriented Programming and represents the real life entities.
+        A typical Java program creates many objects, which as you know, interact by invoking methods. An object consists of :
+    </string>
+    <string name="objectsb">
+        State : It is represented by attributes of an object. It also reflects the properties of an object.
+    </string>
+    <string name="objectsc">
+        Behavior : It is represented by methods of an object. It also reflects the response of an object with other objects.
+    </string>
+    <string name="objectsd">
+        Identity : It gives a unique name to an object and enables one object to interact with other objects.
+    </string>
+    <string name="declarationofobjects">
+        Declaration − A variable declaration with a variable name with an object type.
+    </string>
+    <string name="instantiatingofclass">
+        Instantiation − The "new" keyword is used to create the object.
+        When an object of a class is created, the class is said to be instantiated.
+        All the instances share the attributes and the behavior of the class.
+        But the values of those attributes, i.e. the state are unique for each object. A single class may have any number of instances.
+    </string>
+    <string name="initializationofobjects">
+        Initialization − The "new" keyword is followed by a call to a constructor. This call initializes the new object.
+        The new operator instantiates a class by allocating memory for a new object and returning a reference to that memory.
+        The new operator also invokes the class constructor.
+    </string>
+
+</resources>

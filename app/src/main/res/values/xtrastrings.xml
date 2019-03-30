@@ -65,4 +65,99 @@ Generally, A method has a unique name within the class in whichit is defined but
         It represents the set of properties or methods that are common to all objects of one type.
         In general, class declarations can include these components, in order:
     </string>
+    <string name="localvariables">
+        A variable declared inside the body of the method is called local variable.
+        You can use this variable only within that method and the other methods in the class are not even aware that the variable exists.
+A local variable cannot be defined with "static" keyword.
+    </string>
+    <string name="instancevariables">
+A variable declared inside the class but outside the body of the method, is called instance variable. It is not declared as static.
+It is called instance variable because its value is instance specific and is not shared among instances.
+    </string>
+    <string name="staticvariables">
+A variable which is declared as static is called static variable. It cannot be local.
+        You can create a single copy of static variable and share among all the instances of the class.
+        Memory allocation for static variable happens only once when the class is loaded in the memory.
+    </string>
+    <string name="datatype">
+Datatype: Type of data that can be stored in this variable.
+    </string>
+    <string name="variablename">
+        Variable_name: Name given to the variable.
+    </string>
+    <string name="value">
+        Value: It is the initial value stored in the variable.
+    </string>
+    <string name="whitespacea">
+Whitespace is nothing but space between two words.
+
+Whitespace in Java is used to separate the tokens in a Java source file.
+        Whitespace is required in some places, such as between access modifiers, type names and Identifiers,
+        and is used to improve readability elsewhere.
+    </string>
+    <string name="whitespaceb">
+
+Java whitespace consists of the
+
+    space character
+    the tab character,
+    the form feed character,
+    the line separators characters newline or carriage return (hex 0x0d) characters.
+
+Line separators are special whitespace characters in that they also terminate line comments, whereas normal whitespace does not.
+
+Other Unicode space characters, including vertical tab, are not allowed as whitespace in Java.
+    </string>
+    <string name="comments">
+        The java comments are statements that are not executed by the compiler and interpreter. T
+        he comments can be used to provide information or explanation about the variable, method, class or any statement.
+        It can also be used to hide program code for specific time.
+    </string>
+    <string name="singlecommenta">
+        The single line comment is used to comment only one line.
+    </string>
+    <string name="singlecommentb">
+            //This is single line comment
+    </string>
+    <string name="multilinea">
+        The multi line comment is used to comment multiple lines of code.
+    </string>
+    <string name="multilineb">
+            /* </string>
+    <string name="multilinec">This
+    is  </string>
+    <string name="multilined">multi line
+        comment </string>
+    <string name="multilinee">*/</string>
+    <string name="ifthen">
+        The if-then condition is the most basic of  the conditional statements in java.
+        This tells the program to execute a code block if the condition has been satisfied or it returns true.
+    </string>
+    <string name="ifelse">
+        If else statement also has two types with one else and with multiple else in single else if
+        the first if condition is wrong then else execute and if,
+        If execute then it will skip the else part.
+    </string>
+    <string name="ifelseif">
+        It have multiple else statement if, first if condition is false then check first its else if it’s also wrong
+        then next and if all else if statements are wrong then execute last else statement.
+    </string>
+    <string name="switcha">
+        Switch statement consists of following keywords:
+    </string>
+    <string name="switchb">
+    Switch: where the condition is labeled.
+    </string>
+    <string name="switchc">
+    Case: it will be matched with labeled condition in the switch.
+    </string>
+    <string name="switchd">
+    Break: it will break the code in some case so that other cases will not execute.
+    </string>
+    <string name="switche">
+    Default: if all the cases are wrong the default will run.
+    </string>
+
+
+
 </resources>

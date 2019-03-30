@@ -30,28 +30,22 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Requirements For Programing With Java"
-            android:textColor="@color/yellow"
+            android:textColor="@color/blue2"
             android:textSize="20sp"
             android:textAlignment="center"
             android:layout_gravity="center"
             android:paddingTop="20dp"
-            android:paddingBottom="20dp"/>
+            android:paddingBottom="10dp"/>
 
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:textColor="@color/white"
-            android:textSize="20sp"
-            android:text="#. You must have a willing mind"/>
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="System Requirements"
             android:textStyle="italic"
-            android:textColor="@color/red"
+            android:textColor="@color/blue2"
             android:textSize="20sp"
-            android:paddingTop="20dp"/>
+            android:paddingTop="10dp"/>
 
         <TextView
             android:layout_width="wrap_content"
@@ -83,6 +77,14 @@
             android:textSize="20sp"
             android:paddingTop="25dp"
             android:text="@string/systemrequirements"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            android:paddingTop="20dp"
+            android:text="#. You must have a willing mind"/>
+
 
     </LinearLayout>
 </android.support.v4.widget.NestedScrollView>
